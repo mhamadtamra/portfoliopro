@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Noxfolio</title>
+</head>
+
+<body>
+    <!--start header-->
+    <header>
+        <img src="images/logo.png" alt="logo image">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">MultiPage</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">OnePage</a>
+
+                        </div>
+                    </li>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Project Grid</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Projects Masonry</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Projects Details</a>
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">Blog Stantard</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Blog Detail</a>
+                        </div>
+
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Error Page</a>
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </nav>
+        <button class="side-bar"> <img src="images/sidebar-tottler.svg"></button>
+
+    </header>
+
+    <div class="pop-up">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+            viewBox="0 0 16 16">
+            <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+        <h3>Get Appointment</h3>
+
+        <input type="text" class="name" placeholder="Name" required><br>
+        <input type="email" class="email" placeholder="Email Address" required><br>
+        <textarea rows="5" placeholder="Message" class="message"></textarea><br>
+        <input type="submit" class=" submit rounded-pill " value="Submit Now"><br>
+        <div class="row ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+            </svg>
+
+        </div>
+    </div>
+    <div class="first-section">
+        <div class="me">
+            <h1 class="hello">Hello, i'm<br>
+                <span> Roy C. Jones</span><br><b> web designer</b>
+            </h1>
+            <p class="first-p">We denounce with righteous indignation dislike demoralized by the charms of pleasure</p>
+            <button type="submit" class="hire-me rounded-pill">Hire Me</button><br>
+            <a href="" class="cv"><u>Download Resume</u></a>
+        </div>
+
+        <div class="my-photo">
+            <div class="bg-circle"></div>
+            <img src="images/person.png" alt="my-picture" class="person">
+            <img src="images/progress-shape.png" alt="shape" class="shape">
+        </div>
+
+        <div class="my-info  d-flex flex-column">
+            <div class="inf"><span class="info-nub">13+</span><br><span class="info-span">Years Of Experience</span>
+            </div>
+
+            <div class="inf"><span class="info-nub">8K+</span><br><span class="info-span"> Project Complete </span>
+            </div>
+
+            <div class="inf"><span class="info-nub">99%+</span><br><span class="info-span">Client Satisfactions</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--end header-->
+    <!--start about section-->
+    <div class="second-section">
+        <div class="container mx-5">
+            <span class="about">About</span>
+            <div class="about-info">
+                <div class="about-skills">
+                    <h2>Professional<span> Problem Solutions </span>For Digital Products</h2>
+                    <p class="about-p">At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum
+                        corrupti
+                        quos dolores quas
+                        molestias excepturi sint occaecati cupiditate provident qui officia deserunt mollitia animi, id
+                        est
+                        laborum
+                        et dolorum</p>
+                    <ul>
+                        <div>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg> Branding & Design</li>
+                        </div>
+                        <div>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>Digital Marketing</li>
+                        </div>
+                        <div>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>Web Development</li>
+                        </div>
+                        <div>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>Product Design</li>
+                        </div>
+                    </ul>
+                    <div class="about-contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
+                        <div>
+                            <span class="email-us">Email Us:</span>
+                            <a href="mailto:mhamadtamra@gmail.com" class="cv">mhamadtamra@gmail.com</a>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path
+                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        <div>
+                            <span class="call">Make A Call</span>
+                            <a href="callto:+96181348865" class="cv">81348865</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="about-image">
+                    <img src="images/person2.jpg" alt="" class="person2">
+                    <div>Experience Designer</div>
+                    <div>Mark J. Collins</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--end about section-->
+
+    <!--start resume section-->
+    <div class="third-section">
+        <div class="star">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk " viewBox="0 0 16 16">
+                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+              </svg>
+          
+        </div>
+        <div>
+        <div>
+            <span>My Resume</span>
+            <h2>Real <span>Problem Solutions</span> Experience</h2>
+        </div>
+        <br>
+        <div class="my-career">
+            <div class="year">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+            </svg>
+                <span >2021-Present</span>
+                <h4>Lead Product Designer</h4>
+                <span>Google</span>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+                <span>2016-2018</span>
+                <h4>Junior UX/UI Designer</h4>
+                <span>Linkedln</span>
+            </div>
+            <div  class="year">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+                <span>2018-2021</span>
+                <h4>Senior Product Designer</h4>
+                <span>Webflow</span>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+                <span>2014-2016</span>
+                <h4>Graphics Designer</h4>
+                <span>Apple</span>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!--end resume section-->
+
+
+
+    <!--start sevice section-->
+    <section class="service-part">
+        <div class="service">
+            <h4>Popular Services</h4>
+            <h2 class="display-5">My <span>Special Service </span>    For your Business Development</h2>
+        </div>
+
+        <div class="grid-service">
+            <div class="s-parts">
+                <div class="nub">01.</div>
+                <div>
+                <h4>Brand Identity Design</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+            </div>
+            <div  class="s-parts">
+                <div class="nub">02.</div>
+                <div>
+                <h4>Website Design</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+            </div>
+            <div  class="s-parts">
+                <div class="nub">03.</div>
+                <div>
+                <h4>Mobile Application Design</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+
+            </div>
+            <div  class="s-parts">
+                <div class="nub">04.</div>
+                <div>
+                <h4>Motion Graphics Design</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+            </div>
+            <div  class="s-parts">
+                <div class="nub">05.</div>
+                <div>
+                <h4>Website Development</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+            </div>
+            <div  class="s-parts">
+                <div class="nub">06.</div>
+                <div>
+                <h4>SEO & Digital Marketing</h4>
+                <p>Dignissimos ducimus blanditiis praesen</p>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                </svg>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="fourth-section">
+        <div class="skills-part">
+            <span >My Skills</span>
+            <h2>Let's Explore Popular <span>Skills & Experience</span></h2>
+            <p>Sed ut perspiciatis unde omnis iste natus to voluptatem accusantium doloremque laudantium, totam rem
+                aperiamc eaque ipsa quae ab illo inventore veritatis
+
+            </p>
+            <input type="button" value="Learn More" class="learn">
+        </div>
+        <div class="figma-parts">
+            <div>
+                <img src="images/skill1.png" alt="">
+                <h5>Figma</h5>
+                <span>95%</span>
+            </div>
+            <div>
+                <img src="images/skill2.png" alt="">
+                <h5>Figma</h5>
+                <span>83%</span>
+            </div>
+            <div>
+                <img src="images/skill3.png" alt="">
+                <h5>Figma</h5>
+                <span>93%</span>
+            </div>
+            <div>
+                <img src="images/skill4.png" alt="">
+                <h5>Figma</h5>
+                <span>84%</span>
+            </div>
+            <div>
+                <img src="images/skill5.png" alt="">
+                <h5>Figma</h5>
+                <span>65%</span>
+            </div>
+            <div>
+                <img src="images/skill6.png" alt="">
+                <h5>Figma</h5>
+                <span>86%</span>
+            </div>
+            <div>
+                <img src="images/skill7.png" alt="">
+                <h5>Figma</h5>
+                <span>62%</span>
+            </div>
+            <div>
+                <img src="images/skill8.png" alt="">
+                <h5>Figma</h5>
+                <span>94%</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--end sevice section-->
+
+
+
+    <!--start work section-->
+    <section class="fifth-section">
+        <div >
+            <div class="latest-work">
+                <span>Latest Work</span>
+                <h2 class="display-5">Explore My Popular <span>Projects</span></h2>
+            </div>
+            <div class="design-part">
+            <div class="product-design">
+                <img src="images/project1.jpg "  width="450" height="360" alt="project-1">
+                <div class="product-part">
+                    <span>Product Design</span>
+                    <h2><a href="">Mobile Application Design</a></h2>
+                    <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto
+                        beatae
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        </div>
+       
+        <div class="design-part">
+            <div class="product-design">
+
+                <div class="product-part">
+                    <span>Product Design</span>
+                    <h2><a href="">Website Makeup Design</a></h2>
+                    <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto
+                        beatae
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                      </svg>
+                </div>
+                <img src="images/project2.jpg" width="450" height="360"  alt="">
+            </div>
+        </div>
+        
+
+
+
+        <div class="design-part">
+        <div  class="product-design">
+            <img src="images/project3.jpg" width="450" height="360"  alt="">
+            <div class="product-part">
+                <span>Product Design</span>
+                <h2><a href="">MBrand Identity and Motion Design</a></h2>
+                <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto
+                    beatae
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg>
+            </div>
+        </div>
+        </div>
+
+        <div class="design-part">
+        <div class="product-design">
+
+            <div class="product-part">
+                <span>Product Design</span>
+                <h2><a href="">Mobile Application Development</a></h2>
+                <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto
+                    beatae
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg>
+            </div>
+            <img src="images/project4.jpg"  width="450" height="360" alt="">
+        </div>
+        </div>
+<div  class="more">
+        <input type="button" value="View More Project" class="view-more">
+    </div>
+    </section>
+
+
+    <!--end work section-->
+</body>
+
+</html>
