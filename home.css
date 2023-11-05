@@ -1516,6 +1516,21 @@ footer ul {
     }
 
 
+    article {
+        width: 300px;
+    }
+    .card-part li{
+        font-size: 0.75rem;
+    }
+    .sixth h2 span{
+        font-size: 0.75rem;
+    }
+    .sixth h2 {
+        font-size: 0.75rem;
+    }
+
+
+
 
 }
 
